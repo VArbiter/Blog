@@ -1,5 +1,6 @@
 ---
 title: Hello World
+categories: 叨叨
 ---
 
 ## 以后在 GitHub 叨叨吧 
