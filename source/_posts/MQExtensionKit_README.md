@@ -36,27 +36,19 @@ categories: Geek
 ### Note
 > when install , default is `MQCore` , `MQCore` contains 
 > 
-> > `MQCommon` (Macros) , `MQProtocol` (Protocol) , `MQData` (NS Family), `MQView` (UI Family), `MQRuntime` (objc/ runtime associate)
+> > `MQCommon` (Macros) , `MQProtocol` (Protocol) , `MQData` (NS Family), `MQView` (UI Family) .
 > 
-> when you wanna get to Full , install with `"MQExtensionKit/MQFull"`
+> when you wanna get to Full , install with `"MQExtensionKit/MQFull"` . (MQFull contains `MQCore` , `MQRouter` , `MQOrigin`)
 
 **Instructions**
 > 
 > > MQCore : Core extensions . a abstract collection .
 > 
-> > MQFull : Full extensions (not included MQDataBase && MQCustom) . a abstract collection .
-> 
-> > MQExtensionAssets : Assets collection , preserve for future needs . (not available for now).
+> > MQFull : Full extensions (contains MQCore , MQRouter , MQOrigin) . an abstract collection .
 > 
 > > MQCommon : Macros && Common tools .
 > 
 > > MQProtocol : MQProtocol . for MQ . make all the sub-class of NSObject conforms to it .
-> 
-> > MQRuntime : Packaged for some runtime functions .
-> 
-> > MQDataBase : Wrappers for [`Realm`](https://github.com/realm/realm-cocoa) ('~> 2.10.2') && [`FCModel`](https://github.com/marcoarment/FCModel)
-> 
-> > MQRouter : a extension Package Router for [`MGJRouter`](https://github.com/meili/MGJRouter) ('~> 0.9.3') && perform actions .
 > 
 > > MQData :  a extension actions for NS family .
 > 
@@ -64,22 +56,32 @@ categories: Geek
 > 
 > > MQOrigin : a kit that for develop for custom views / medias / datas .
 > 
+> > MQRouter : a router for module developing . and "wrapper" was depended on [`MGJRouter`](https://github.com/meili/MGJRouter) ('~> 0.9.3')  .
+> 
+> > MQMedia : Media operate . video , audio , images , etc ...
+> 
+> > MQDataBase : Wrappers for [`Realm`](https://github.com/realm/realm-cocoa) ('~> 2.10.2') && [`FCModel`](https://github.com/marcoarment/FCModel)
+> 
 > > MQCustom :  Custom classes or functions , dependend or based on other vendors .
 
 ### What's new ?
 ---
 ---
+**2018-12-26 14:44:04**
+
+> added  `MQRouter` (MQRouter) .
+
 **2018-08-13 16:22:06**
 
-> added  `NSError+MQExtension` .
+> added  `NSError+MQExtension` (MQData) .
 
 **2018-08-02 14:04:53**
 
-> added `MQMultiArgumentPerformer` for perfoming a selector with multi arguments .
+> added `MQMultiArgumentPerformer` (MQOrigin) for perfoming a selector with multi arguments .
 
 **2018-08-02 11:03:05**
 
-> added  `SVProgressHUD+MQExtension` for notification issues.
+> added  `SVProgressHUD+MQExtension` (MQCustom) for notification issues.
 
 **2018-07-30 12:52:51**
 

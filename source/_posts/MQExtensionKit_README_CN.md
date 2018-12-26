@@ -38,26 +38,18 @@ categories: Geek
 > 
 > > `MQCommon` (宏) , `MQProtocol` (协议) , `MQData` (NS族群), `MQView` (UI 族群), `MQRuntime` (objc/ runtime 相关)
 > 
-> 如果你想安装全部 , 安装 `"MQExtensionKit/MQFull"` 
+> 如果你想安装全部 , 安装 `"MQExtensionKit/MQFull"` . (`MQFull` 包含了 `MQCore` , `MQRouter` , `MQOrigin`)
 > 
 
 **说明**
 > 
 > > MQCore : 核心拓展 . 一个抽象集合.
 > 
-> > MQFull : 全部 (不包括 MQDataBase && MQCustom) . 一个抽象集合 .
-> 
-> > MQExtensionAssets : 资源集合 , 为未来的使用做准备 . (当前还未启用).
+> > MQFull : 完整的 扩展 (包含 MQCore , MQRouter , MQOrigin) . 一个抽象集合 .
 > 
 > > MQCommon : 宏 和 公共的工具类 .
 > 
 > > MQProtocol : MQProtocol . 为了 MQ . 让所有 NSObject 的子类都遵循它 .
-> 
-> > MQRuntime : 一些 runtime 的封装合集 .
-> 
-> > MQDataBase :  [`Realm`](https://github.com/realm/realm-cocoa) ('~> 2.10.2')  && && [`FCModel`](https://github.com/marcoarment/FCModel) 的包裹 . 
-> 
-> > MQRouter : 一个路由的拓展, 依赖了 [`MGJRouter`](https://github.com/meili/MGJRouter) ('~> 0.9.3') && perform actions .
 > 
 > > MQData : NS 族群类库 .
 > 
@@ -65,22 +57,32 @@ categories: Geek
 > 
 > > MQOrigin : 一个由自己开发的自定义视图 / 媒体 / 数据 库.
 > 
+> > MQRouter : 组件化路由 , 其中 wrapper 依赖了 [`MGJRouter`](https://github.com/meili/MGJRouter) ('~> 0.9.3')  .
+> 
+> > MQMedia : 多媒体操作 . 视频 , 音频 , 图像 , 等等 ...
+> 
+> > MQDataBase :  [`Realm`](https://github.com/realm/realm-cocoa) ('~> 2.10.2')  && && [`FCModel`](https://github.com/marcoarment/FCModel) 的包裹 . 
+> 
 > > MQCustom :  一些自定义的类和功能 , 依赖或者基于一些其它的第三方 .
 
 ### 上新 ?
 ---
 ---
+**2018-12-26 14:44:04**
+
+> 添加  `MQRouter` (MQRouter) .
+
 **2018-08-13 16:22:06**
 
-> 添加 `NSError+MQExtension` .
+> 添加 `NSError+MQExtension` (MQData) .
 
 **2018-08-02 14:04:53**
 
-> 增加 `MQMultiArgumentPerformer` 用来 perform 并携带多个参数 .
+> 增加 `MQMultiArgumentPerformer` (MQOrigin) 用来 perform 并携带多个参数 .
 
 **2018-08-02 11:03:05**
 
-> 增加 `SVProgressHUD+MQExtension` 的通知处理 .
+> 增加 `SVProgressHUD+MQExtension` (MQCustom) 的通知处理 .
 
 **2018-07-30 12:52:51**
 
