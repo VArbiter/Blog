@@ -13,11 +13,11 @@ categories: Geek
 
 [![Platform](https://img.shields.io/cocoapods/p/MQExtensionKit.svg?style=flat)](http://cocoapods.org/pods/MQExtensionKit)
 
-### Current Version 4.0.0
+### Current Version 4.1.9
 
-> pod 'MQExtensionKit' , '~> 4.0.0' // default is MQCore
+> pod 'MQExtensionKit' , '~> 4.1.9' // default is MQCore
 >
-> > pod 'MQExtensionKit/MQFull' , '~> 4.0.0' . if you wanna install the whole Kit .
+> > pod 'MQExtensionKit/MQFull' , '~> 4.1.9' . if you wanna install the whole Kit .
 
 ### Warning
 >
@@ -60,7 +60,8 @@ categories: Geek
 >
 > > MQMedia : Media operate . video , audio , images , etc ...
 >
-> > MQDataBase : Wrappers for [`Realm`](https://github.com/realm/realm-cocoa) ('~> 2.10.2') && [`FCModel`](https://github.com/marcoarment/FCModel)
+> > MQDataBase : Wrappers for [`Realm`](https://github.com/realm/realm-cocoa) ('~> 3.7.5') && [`FCModel`](https://github.com/marcoarment/FCModel)
+> > <big>note</big>: due to the `Realm`'s aggressive update ,  MQDataBase's development will be temporarily pasued since `4.1.9` , and removed from MQExtensionKit.
 >
 > > MQCustom :  Custom classes or functions , dependend or based on other vendors .
 

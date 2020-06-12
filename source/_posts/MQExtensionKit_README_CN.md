@@ -13,11 +13,11 @@ categories: Geek
 
 [![Platform](https://img.shields.io/cocoapods/p/MQExtensionKit.svg?style=flat)](http://cocoapods.org/pods/MQExtensionKit)
 
-### 当前版本 4.0.0
+### 当前版本 4.1.9
 
-> pod 'MQExtensionKit' , '~> 4.0.0' // 默认是 MQCore
+> pod 'MQExtensionKit' , '~> 4.1.9' // 默认是 MQCore
 >
-> > pod 'MQExtensionKit/MQFull' , '~> 4.0.0' . 如果你想安装整个框架.
+> > pod 'MQExtensionKit/MQFull' , '~> 4.1.9' . 如果你想安装整个框架.
 
 ### Warning
 >
@@ -61,7 +61,8 @@ categories: Geek
 >
 > > MQMedia : 多媒体操作 . 视频 , 音频 , 图像 , 等等 ...
 >
-> > MQDataBase :  [`Realm`](https://github.com/realm/realm-cocoa) ('~> 2.10.2')  && && [`FCModel`](https://github.com/marcoarment/FCModel) 的包裹 .
+> > MQDataBase :  [`Realm`](https://github.com/realm/realm-cocoa) ('~> 3.7.5')  && && [`FCModel`](https://github.com/marcoarment/FCModel) 的包裹 .
+> > <big>注意</big>: 因为 `Realm` 的激进式更新 , MQDataBase 将从 4.1.9 版本开始暂时停止更新 , 并被移除出了 MQExtensionKit.
 >
 > > MQCustom :  一些自定义的类和功能 , 依赖或者基于一些其它的第三方 .
 

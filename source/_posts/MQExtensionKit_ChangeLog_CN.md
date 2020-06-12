@@ -8,6 +8,22 @@ categories: Geek
 ---
 ---
 
+**2020-06-12 10:50:00**
+
+> <big>重要</big> 因为 `Realm` 的激进式更新 , MQDataBase 将从 4.1.9 版本开始暂时停止更新 , 并被移除出了 MQExtensionKit
+
+**2019-08-24 15:32:00**
+
+> 更新 `NSString+MQExtension` 中一些本地化方法 , 废弃了 `NSPredicate+MQExtension` 中一些方法 .
+
+**2019-06-14 12:22:00**
+
+> 更新 `NSString+MQExtension` 修复了汉字 "一" 过滤失效的问题
+
+**2019-05-22 11:51:00**
+
+> 添加 `CLLocation+MQExtension` && `CLGeocoder+MQExtension` (MQData) 来做地理相关操作
+
 **2019-02-22 14:01:38**
 
 > 添加  `MQVideo_H264_HEVC_Encoder` && `MQVideo_H264_HEVC_Decoder` (MQMedia) 用来 硬编码 / 硬解码 视频 .
@@ -41,11 +57,11 @@ categories: Geek
 **2018-06-27 20:03:04**
 
 > 增加 `MQPointMarker ` (MQOrigin) 来让自己收集信息 ,
-> 
+>
 > 增加 `MQCrashCatcher` (MQOrigin) 以捕获崩溃 ,
-> 
+>
 > 增加 `MQPhotoManager` (MQOrigin) 用来从相册选择 图片 / 视频 ,
-> 
+>
 > 增加 `MQAudioRecorder` (MQOrigin) 用来录音 .
 
 **2018-06-25 19:22:00**
@@ -76,14 +92,14 @@ categories: Geek
 
 > 将 'CCLocalLib' 重命名为 'CCExtensionKit' .
 > 更新到 '3.0.0'
-> 
+>
 
 **2017-08-10 14:50:52**
 
 > 在差不多写了一个月的 `CCChainOperate` 之后 , 我发现 , 它 , **可以成为一个开发库 !**
-> 
+>
 > 所以 , `CCChainKit` 就诞生了 . 👏👏👏 .
-> 
+>
 > ~~👉👉👉 **[CCChainKit](https://github.com/VArbiter/CCChainKit)**~~
 > CCChainKit 可能会很长一段时间不再更新了. 维护两个库确实没精力 .
 
@@ -95,10 +111,10 @@ categories: Geek
 **2017-07-01 19:49:01**
 > 我创建了一个叫做 `CCChainOperate` 的新库 , 我为啥写他?
 >
-> 嗯 , 在写了 OC 几年之后 , 我发现它还是有许多不足的地方的 . 比如你必须在几乎所有地方使用 `[]` . 我不喜欢 . 
-> 
-> 但是 , 我们都知道 , 相对的 , `swift` 就做的比它好 , 简单使用 , 容易理解 (现在还不太稳定就是了). 
-> 
+> 嗯 , 在写了 OC 几年之后 , 我发现它还是有许多不足的地方的 . 比如你必须在几乎所有地方使用 `[]` . 我不喜欢 .
+>
+> 但是 , 我们都知道 , 相对的 , `swift` 就做的比它好 , 简单使用 , 容易理解 (现在还不太稳定就是了).
+>
 >  某天 , 我发现 , 经常使用的 block ,  实际上是可以用来模仿 swift 的风格的 , 所以 `CCChainOperate ` 就诞生了 (目前还没完成 , 可能 , 永远也不会 , 但是我会努力尝试的.).
 >  
 >  当然 , 受到了 React-Objc 的很大启发.
